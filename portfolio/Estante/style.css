@@ -1,0 +1,122 @@
+html { /* Suavização do Scroll */
+    scroll-behavior: smooth; /* utilzamos o scroll de uma forma mais suave para direcionamento do caminho do link */
+}
+
+body {
+    /*backgroud */
+    background-color: rgba(248, 229, 248, 0.959);
+
+    /* Texto */
+    color: rgb(20, 20, 20);
+    text-align: justify;
+
+    /* Alinhamento e Tamanho */
+    /* 1rem-  equivale a 16px, tela grande = font-size: 16px, tela media = font-size: 5px, tela pequenas = font-size: 14px */
+    width: 85%;
+    margin: auto;
+}
+
+/* Seções dos Livros*/
+section {
+    /*Espaçamento dentro da seção */
+    padding: 64px 256px;
+}
+
+/* Tabela */
+table {
+    /* Largura */
+    width: 100%;
+   }
+   td {
+    /*background */
+    background-color: #b4ecda;
+    text-align: center;
+   }
+   td,
+   th {
+    /* borda no formato shorthand */
+    background-color: rgb(226, 63, 85);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(248, 245, 245);
+    border-radius: 4px;
+    /* alinhamento do Texto */
+    text-align: center;
+    /* ou border: color solid 1px; */
+
+ }
+   tr {
+    /* background */
+    background-color: #b4ecda;
+   }
+   /* Titulo, Texto e Parágrafos */
+   p {
+    text-align: justify;
+    text-indent: 50px;
+   }
+   h1, h2, h3 {
+    text-align: center;
+   }
+   h3 {
+    text-align: center;
+    color: rgb(22, 21, 21);
+   }
+   /* Link */
+   a:link {
+    color: rgb(5, 30, 51); /* Link Normal */
+   }
+   a:visited {
+    color: rgb(146, 44, 92); /* Link Visitado */
+   }
+   a:hover {
+    color: rgb(34, 34, 236); /* Mouse sobre o Link */
+   }
+   a:active {
+    color: rgb(179, 13, 13); /*Link Selecionado */
+   }
+    
+   /* imagem */
+   img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+   }
+   /* Classes e Id */
+   .bookTitle {    /* Titulo do Livro */
+    background-color: rgb(103, 253, 253);
+    color: rgb(240, 67, 96);
+    text-align: center;
+   }
+   #sectionHP, #sectionOz, #sectionPinoquio {
+    background-color: aquamarine;   /* Cor de fundo das sessões dos livros */
+   }
+   #header { /* Estilização d topo */
+    background-color: #ac1536;
+    color: antiquewhite;
+    padding: 20px;
+    margin-bottom: 0px;
+   }
+   #yourLibrary { /* Alinhamento de paragráfo do topo ao centro */
+    text-indent: 0px; /* caso ele esteja herdando a estlização do topo, utilize !important */
+    text-align: center;
+   }
+   #sumary { /* Estilização do Sumário */
+   background-color:rgb(216, 87, 109) ;
+   color: bisque;
+   padding: 20px;
+   margin-bottom: 50px;
+   border-radius:  0 0 50px 50px; /* arredondamos somente lado direito e esquerdo da parte de baixo */
+   /* Alinhamento Sumário */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+
+  /* Roda pé */
+  footer {
+    background-color:#ac1536;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+  }

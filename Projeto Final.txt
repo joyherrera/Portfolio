@@ -1,0 +1,10 @@
+Projeto Final
+
+na aplicação das colunas temos de 0a 12 para adicionar
+
+
+GlassMorphim- perspectiva de vidro.
+https://css.glass/
+
+Guia MarkDown- Para o README.md
+https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
